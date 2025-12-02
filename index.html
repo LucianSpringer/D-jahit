@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- SEO Meta Tags -->
+    <title>D’Jahit Boutique: Jahit Pakaian Profesional & Custom di Bandung</title>
+    <meta name="description" content="Jahit custom rapi, cepat, terjangkau. Melayani pembuatan dress, kebaya, seragam, jas, hingga permak premium di Bandung. Hubungi kami untuk konsultasi!" />
+    <meta name="keywords" content="jahit pakaian, baju custom, tailor Bandung, pakaian wanita, pakaian pria, jahit kebaya, permak jeans Bandung, penjahit profesional, butik jahit, jahit seragam, jahit gamis" />
+    <meta name="author" content="D’Jahit Boutique" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://djahitboutique.com/" />
+    <meta property="og:title" content="D’Jahit Boutique: Jahit Pakaian Profesional & Custom di Bandung" />
+    <meta property="og:description" content="Jahit custom rapi, cepat, terjangkau. Melayani pembuatan dress, kebaya, seragam, jas, hingga permak premium di Bandung." />
+    <meta property="og:image" content="https://picsum.photos/1200/630?random=99" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://djahitboutique.com/" />
+    <meta property="twitter:title" content="D’Jahit Boutique: Jahit Pakaian Profesional & Custom di Bandung" />
+    <meta property="twitter:description" content="Jahit Custom Rapi ⊹ Cepat ⊹ Terjangkau. Melayani pembuatan dress, kebaya, dan permak di Bandung." />
+    <meta property="twitter:image" content="https://picsum.photos/1200/630?random=99" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              brand: {
+                pink: '#fce7f3', // pink-100
+                dark: '#1e293b', // slate-800
+                gold: '#d97706', // amber-600
+                navy: '#0f172a', // slate-900
+              }
+            },
+            fontFamily: {
+              serif: ['"Playfair Display"', 'serif'],
+              sans: ['"Lato"', 'sans-serif'],
+            },
+            animation: {
+              'fade-in-up': 'fadeInUp 0.6s ease-out forwards',
+              'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+            },
+            keyframes: {
+              fadeInUp: {
+                '0%': { opacity: '0', transform: 'translateY(20px)' },
+                '100%': { opacity: '1', transform: 'translateY(0)' },
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      html { scroll-behavior: smooth; }
+      .glass-nav { background: rgba(255, 255, 255, 0.95); backdrop-filter: blur(10px); }
+      .dark .glass-nav { background: rgba(15, 23, 42, 0.95); }
+    </style>
+    
+    <!-- JSON-LD Schema Markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://djahitboutique.com/#organization",
+          "name": "D’Jahit Boutique",
+          "url": "https://djahitboutique.com",
+          "logo": "https://djahitboutique.com/logo.png",
+          "image": "https://picsum.photos/1920/1080?random=99",
+          "description": "Jahit Custom Rapi ⊹ Cepat ⊹ Terjangkau. Butik jahit profesional di Bandung melayani pembuatan kebaya, gaun, dan seragam.",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Jl. Riau No. 123, Bandung Wetan",
+            "addressLocality": "Bandung",
+            "addressRegion": "Jawa Barat",
+            "postalCode": "40115",
+            "addressCountry": "ID"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": -6.909903995007058,
+            "longitude": 107.61678931477265
+          },
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+62 812-9988-7766",
+            "contactType": "customer service",
+            "areaServed": "ID",
+            "availableLanguage": "Indonesian"
+          },
+          "priceRange": "$$",
+          "openingHoursSpecification": [
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+              "opens": "09:00",
+              "closes": "18:00"
+            }
+          ],
+          "sameAs": [
+            "https://www.instagram.com/djahitboutique",
+            "https://www.facebook.com/djahitboutique"
+          ]
+        },
+        {
+          "@type": "Service",
+          "name": "Custom Dress & Gaun",
+          "provider": { "@id": "https://djahitboutique.com/#organization" },
+          "description": "Gaun pesta, bridesmaid, dan casual dress sesuai ukuran tubuh."
+        },
+        {
+          "@type": "Service",
+          "name": "Kebaya Modern & Klasik",
+          "provider": { "@id": "https://djahitboutique.com/#organization" },
+          "description": "Jahit kebaya wisuda, lamaran, dan pernikahan dengan payet detail."
+        },
+        {
+          "@type": "Service",
+          "name": "Seragam Keluarga & Kantor",
+          "provider": { "@id": "https://djahitboutique.com/#organization" },
+          "description": "Pemesanan partai besar untuk seragam keluarga atau korporat."
+        },
+        {
+          "@type": "Service",
+          "name": "Permak Premium",
+          "provider": { "@id": "https://djahitboutique.com/#organization" },
+          "description": "Resize, potong celana, ganti resleting dengan finishing butik."
+        },
+        {
+          "@type": "Service",
+          "name": "Jas & Blazer Wanita",
+          "provider": { "@id": "https://djahitboutique.com/#organization" },
+          "description": "Tailoring jas formal dengan cuttingan sharp dan elegan."
+        },
+        {
+          "@type": "Service",
+          "name": "Baju Anak",
+          "provider": { "@id": "https://djahitboutique.com/#organization" },
+          "description": "Pakaian anak yang nyaman dengan desain lucu dan unik."
+        },
+        {
+          "@type": "Service",
+          "name": "Gamis & Syar'i",
+          "provider": { "@id": "https://djahitboutique.com/#organization" },
+          "description": "Busana muslimah yang anggun, tidak menerawang, dan nyaman."
+        },
+        {
+          "@type": "Service",
+          "name": "Konsultasi Desain",
+          "provider": { "@id": "https://djahitboutique.com/#organization" },
+          "description": "Layanan konsultasi dan sketsa desain busana."
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Permak Ringan"
+          },
+          "priceSpecification": {
+            "@type": "PriceSpecification",
+            "price": "25000",
+            "priceCurrency": "IDR",
+            "minPrice": "25000"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+             "@type": "Service",
+             "name": "Jahit Blouse/Kemeja"
+          },
+          "priceSpecification": {
+            "@type": "PriceSpecification",
+            "price": "150000",
+            "priceCurrency": "IDR",
+            "minPrice": "150000"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+             "@type": "Service",
+             "name": "Jahit Dress/Gamis"
+          },
+          "priceSpecification": {
+            "@type": "PriceSpecification",
+            "price": "250000",
+            "priceCurrency": "IDR",
+            "minPrice": "250000"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+             "@type": "Service",
+             "name": "Kebaya & Gaun Pesta"
+          },
+          "priceSpecification": {
+            "@type": "PriceSpecification",
+            "price": "500000",
+            "priceCurrency": "IDR",
+            "minPrice": "500000"
+          }
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Apakah bisa jahit online?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Bisa! Kami menyediakan panduan ukur mandiri via video call atau PDF."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Berapa lama proses pengerjaan?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Standar 1-2 minggu tergantung antrian. Layanan kilat 3 hari tersedia dengan biaya tambahan."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Apakah bahan disediakan?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Kami menyediakan beberapa jenis bahan, namun Anda juga bebas membawa bahan sendiri."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Jika ukuran tidak pas, apakah ada garansi?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ya, kami memberikan garansi perbaikan gratis 1x jika kesalahan dari pihak kami."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Berapa kisaran harga jahit?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Harga bervariasi tergantung model dan tingkat kesulitan. Mulai dari Rp 25rb untuk permak dan Rp 150rb untuk jahit baju."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Apakah menerima permak jeans?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Tentu, kami menerima permak segala jenis pakaian termasuk jeans, jas, dan jaket."
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+    
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.555.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/"
+  }
+}
+</script>
+</head>
+  <body class="bg-gray-50 dark:bg-slate-900 text-slate-800 dark:text-gray-100 antialiased font-sans transition-colors duration-300">
+    <div id="root"></div>
+  </body>
+</html>
